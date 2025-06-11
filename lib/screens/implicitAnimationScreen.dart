@@ -41,6 +41,7 @@ class _ImplicitAnimationScreenState extends State<ImplicitAnimationScreen>
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
+          _controller.reset();
           _controller.forward();
         },
 
